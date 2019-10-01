@@ -47,6 +47,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
     // Tells the RV how many items are in the list
     @Override
     public int getItemCount() {
+
         return items.size();
     }
 
